@@ -1,9 +1,6 @@
 name: Debug Build - Floaty
 
-on:
-  push:
-    branches:
-      - "**"
+on: workflow_dispatch
 
 jobs:
   LINUXANDROID:
